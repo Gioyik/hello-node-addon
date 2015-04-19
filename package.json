@@ -1,0 +1,23 @@
+{
+  "name": "hello-node-addon",
+  "version": "1.0.0",
+  "description": "A simple hello world as node addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "gypfile": true,
+  "keywords": [
+    "node",
+    "addon",
+    "iojs",
+    "c++",
+    "hello",
+    "world"
+  ],
+  "author": "Giovanny Andres Gongora Granada",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^1.7.0"
+  }
+}
